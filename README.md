@@ -30,6 +30,10 @@
     </a>
 </h4>
 
+
+### This is a soft fork of LiteLLM for localwriter. It has the enterprise directory removed from version control, and will be updated on an as-needed basis
+
+
 LiteLLM manages:
 
 - Translate inputs to provider's `completion`, `embedding`, and `image_generation` endpoints
