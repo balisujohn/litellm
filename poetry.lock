@@ -1834,17 +1834,6 @@ llama-index = ["llama-index (>=0.10.12,<2.0.0)"]
 openai = ["openai (>=0.27.8)"]
 
 [[package]]
-name = "litellm-enterprise"
-version = "0.1.16"
-description = "Package for LiteLLM Enterprise features"
-optional = true
-python-versions = "!=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,>=3.8"
-files = [
-    {file = "litellm_enterprise-0.1.16-py3-none-any.whl", hash = "sha256:ceccc8cb579e06fb12c1d209065064188336305be6d024cb050d44e0b5ad9cf3"},
-    {file = "litellm_enterprise-0.1.16.tar.gz", hash = "sha256:726194d3c3e8b154912ef021253a4a1dd6cb9ffa7f5249cd32c59c7c1235b3a8"},
-]
-
-[[package]]
 name = "litellm-proxy-extras"
 version = "0.2.12"
 description = "Additional files for the LiteLLM Proxy. Reduces the size of the main litellm package."
@@ -4825,7 +4814,7 @@ type = ["pytest-mypy"]
 [extras]
 caching = ["diskcache"]
 extra-proxy = ["azure-identity", "azure-keyvault-secrets", "google-cloud-kms", "prisma", "redisvl", "resend"]
-proxy = ["PyJWT", "apscheduler", "azure-identity", "azure-storage-blob", "backoff", "boto3", "cryptography", "fastapi", "fastapi-sso", "gunicorn", "litellm-enterprise", "litellm-proxy-extras", "mcp", "orjson", "polars", "pynacl", "python-multipart", "pyyaml", "rich", "rq", "uvicorn", "uvloop", "websockets"]
+proxy = ["PyJWT", "apscheduler", "azure-identity", "azure-storage-blob", "backoff", "boto3", "cryptography", "fastapi", "fastapi-sso", "gunicorn",  "litellm-proxy-extras", "mcp", "orjson", "polars", "pynacl", "python-multipart", "pyyaml", "rich", "rq", "uvicorn", "uvloop", "websockets"]
 semantic-router = ["semantic-router"]
 utils = ["numpydoc"]
 
